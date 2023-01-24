@@ -1,48 +1,73 @@
 
-
-head{
-    width: fit-content;
-    font-style: inherit;
+.contenedor{
+    display: flex;
 }
 
-h1{ 
+.foto {
+    width: 150px;
+    height: 250px;
+    }
+h1 {
+    position: absolute;
+    justify-content: center;
+    text-decoration: underline;
+    padding-left : 350px;
+    padding-top: 50px;
+    padding-right: 25px;
+    padding-bottom:10px;
+    color:silver;
+    font-weight: bold ;
+    font-size: 75px;
+    font-family: 'Open Sans', sans-serif;
+
+     }
+    
+legend{
+        color: white;
+     }
+.sobremi{
+    padding-left: 100px;
+    font-style: italic;
+    color: silver;
+     }
+
+body {
+    background-color: rgba(1, 21, 36, 0.776);
+    color: rgb(255, 255, 255);
+    }
+
+fieldset{
+    border-color: rgb(233, 78, 12);
+}
+
+p{ 
     place-items: align-self center;
-    ;
     font-size: 45px;
     font-family: 'Unbounded', cursive;
     width: fit-content;
-    background-color: blue;
     color: whitesmoke;
     
 }
-h2{
-    font-size: 35px;
-    width: fit-content;
-    background-color: blue;
-    color: whitesmoke;
-}
-h3{
-    font-size: 30px; 
-    width: fit-content;
-    background-color: blue;
-    color: whitesmoke;
-}
+
+
 h4{
+    text-decoration: underline;
     font-size: 30px;
     width: fit-content;
-    background-color: blue;
     color: whitesmoke;
 }
-p{
+
+/** p{
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
     width: fit-content;
     background-color: aqua;
     color: crimson;
-}
+}**/
+
 footer{
     font-size: 18px;
     width: fit-content;
-    color: blueviolet;
+    color: rgb(224, 95, 86);
     font-family: 'Unbounded', cursive;
 }
