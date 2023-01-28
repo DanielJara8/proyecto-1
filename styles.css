@@ -1,17 +1,69 @@
 
-.contenedor{
+/*seccion header y título principal*/
+.contenedor-header{
+    position:sticky ;
+    width: 100%;
+    top:0;
+    left:0;
+    z-index: 9999;
+    padding-left: 70px;
+    background-color:transparent;
+}
+.contenedor-header header{
+    max-width: 1100px;
+    margin: auto;
     display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    padding: 15px 20px;
+    color:aliceblue;
+}
+.contenedor-header a{
+    font-size :15px;
+    color:aliceblue;
+}
+.contenedor-header ul{
+    display:flex;
+    list-style: none;
+    font-size: 15px;
+    font-style: oblique;
+    color: snow;
+}
+.contenedor-header nav ul li{
+    padding: 10PX;
+}
+
+.contenedor-header header nav ul li a{
+    text-align: center;
+    margin: 0 15px;
+    transition: .8s;
+    color:#808080;
+    width: 40px;
+    height: 40PX;
+    font-weight: bold;
+}
+.contenedor-header header nav ul li a:hover{
+color:burlywood;
+}
+
+.contenedor-header header nav ul li a button{
+    cursor:pointer;
+    background-color: transparent;
+    border: 4px solid black;
+    size:30px 25px;
+
 }
 
 .foto {
     width: 150px;
     height: 250px;
-    }
+    position: absolute;
+}
 h1 {
     position: absolute;
     justify-content: center;
     text-decoration: underline;
-    padding-left : 350px;
+    padding-left : 500px;
     padding-top: 50px;
     padding-right: 25px;
     padding-bottom:10px;
@@ -21,6 +73,8 @@ h1 {
     font-family: 'Open Sans', sans-serif;
 
      }
+
+     /*sección información personal*/
     
 legend{
         color: white;
@@ -31,6 +85,8 @@ legend{
     color: silver;
      }
 
+     /*cuerpo del proyecto*/
+
 body {
     background-color: rgba(1, 21, 36, 0.776);
     color: rgb(255, 255, 255);
@@ -40,34 +96,59 @@ fieldset{
     border-color: rgb(233, 78, 12);
 }
 
-p{ 
+p1{ 
     place-items: align-self center;
-    font-size: 45px;
+    font-size: 15px;
     font-family: 'Unbounded', cursive;
     width: fit-content;
     color: whitesmoke;
     
 }
 
+p2{
+    place-items: align-self center;
+    font-size: 15px;
+    font-family: 'Unbounded', cursive;
+    width: fit-content;
+    color: whitesmoke;
 
-h4{
+}
+
+
+
+h2{
     text-decoration: underline;
     font-size: 30px;
     width: fit-content;
     color: whitesmoke;
 }
+h2:hover{
+    color: burlywood;
+}
 
-/** p{
-    font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
-    width: fit-content;
-    background-color: aqua;
-    color: crimson;
-}**/
+/*pie de página*/
 
+
+h3{
+    text-decoration: underline;
+    text-decoration-color: rgb(233, 78, 12);    
+}
+h3:hover{
+    color: burlywood;
+}
 footer{
     font-size: 18px;
     width: fit-content;
-    color: rgb(224, 95, 86);
-    font-family: 'Unbounded', cursive;
+    color: mediumslateblue;
+   
+}
+a:-webkit-any-link {
+    font-size: 18px;
+    width: fit-content;
+    color: mediumslateblue;
+    padding-left: 5px;
+}
+
+a:-webkit-any-link:hover{
+    color: burlywood;
 }

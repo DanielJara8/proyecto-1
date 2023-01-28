@@ -14,39 +14,62 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Unbounded:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Unbounded:wght@300;400&display=swap" rel="stylesheet">
-
+    
     <title> Curriculum Vitae Daniel Jara </title>
     </head>
-    <body>
+    <body>        
        
-     <div class="contenedor"> 
-        
-            <img class= "foto" src="https://drive.google.com/uc?export=download&id=0B4TXBRtUnvH6enRkbVJHUXpLWE0"  alt="Esta imagen no está disponible para tu navegador. Por favor actualiza a la versión más reciente"/> 
+     <header>
+        <nav id="navegación">
+            <div class="contenedor-header" id="contenedor">
+            
+                <ul>
+                    <br>
+                   <button onclick =""> <li><a href="#foto">INICIO</a></li></button>
+                    <br>
+                    <button onclick=""> <li><a href="#sobreMi">INFORMACIÓN PERSONAL</a></li></button>
+                    <br>
+                    <button onclick=""> <li><a href="#estudios">ESTUDIOS</a></li></button>
+                    <br>
+                    <button onclick=""> <li><a href="#trabajos">HISTORIAL LABORAL</a></li></button>
+                    <br>
+                    <button onclick=""><li><a href="#contacto">DATOS DE CONTACTO</a></li></button>
+                </ul>
+            </div>
+         </nav>
+        </header>
+     
+           
+   <div>
+    <img class= "foto" id="foto" src="https://drive.google.com/uc?export=download&id=0B4TXBRtUnvH6enRkbVJHUXpLWE0"  alt="Esta imagen no está disponible para tu navegador. Por favor actualiza a la versión más reciente"/> 
             <h1 class="name">  
                  Daniel Jara 
                </h1>
-               <img src="fondo-galaxia-espacial_53876-93121.jpg" height="250px" width="1500px" alt="Esta imagen no es compatible con tu navegador"/>
-        </div>
-           
-        
+               <img src="fondo-galaxia-espacial_53876-93121.jpg" height="250px" width="1250px" alt="Esta imagen no es compatible con tu navegador"/>
+            </div>
       <br>
       <br>
     
   <fieldset>
     <legend>INFORMACIÓN PERSONAL</legend>
-    <div class="sobremi">
+    <div class="sobremi" id="sobreMi">
         Mi nombre es Daniel, nací el 3 de Enero de 1991.
     <br>
         Tengo 32 años, estoy casado y vivo en la localidad de City Bell, La Plata, provincia de Buenos Aires.
     <br>
         El siguiente es un resúmen de mi carrera y mis aspiraciones laborales.
     <br>
+        Soy Testigo de Jehová y me intereso mucho por aprender de la Biblia.
+    <br>    
+        Me encantan los deportes, pero sobre todo el fútbol y la enseñanza que deja sobre trabajar en equipo.
+    <br>
     
   </fieldset>
 
-    <h4>Estudios</h4>
+      <div id="estudios">
+         <h2> Estudios</h2>
     <fieldset>
-        <p>
+        <p1>
          <li>    -Secundario Completo
          </li>
             Lugar de estudio: E.E.M N° 15, Luis Federico Leloir, City Bell.
@@ -55,12 +78,13 @@
     
         <br>
         <br>
-        <li>    EDUCACIÓN COMPLEMENTARIA:
-        </li>
-            -Lugar de Estudio: Instituto cultural Argentino-Británico
+            EDUCACIÓN COMPLEMENTARIA:
+        <br>
+        <br>
+        <li> -Lugar de Estudio: Instituto cultural Argentino-Británico
             Título: First Certificate of English
             Promedio: 73
-     
+        </li>   
         <br>
         <br>
         <li> -Lugar de Estudio: Centro de Formación Profesional N° 407
@@ -75,12 +99,22 @@
            
         <br>
         <br>
-        </p>
+        <li>Lugar de Estudio: EDUTYN ACADEMY</li>
+        Reparación de smartphones (en proceso).
+        <br>
+        <br>
+        <li> Lugar de Estudio: Argentina Programa 4.0 (2022/2023)
+        </li>
+        Actualmente en proceso de convertirme en Front End Developer
+        </p1>
+    </div>
     </fieldset>
 
-    <h4>Historial Laboral</h4>
+   <div id="trabajos">
+     <h2>Historial Laboral</h2>
     <fieldset>
-    <p1>
+    <p2>
+        <br>
         <li> 
             -Emprendimiento Personal |
         </li>
@@ -89,7 +123,7 @@
     <br>
     <br>
         <li>
-            Telemarketer |
+            -Telemarketer |
         </li>
          2 meses (hasta el cierre de la empresa), año 2010 en una empresa dependiente a Movistar
         Mis responsabilidades eran lograr armonía de trabajo, trabajo en equipo, buen trato con el cliente, desarrollar confianza con el
@@ -106,7 +140,7 @@
         <br>
 
     <li>
-         DGC y E -Profesor de Inglés |
+         -DGC y E -Profesor de Inglés |
     </li>
         2014-2018
         Habilidades adquiridas: manejar un programa de educación en tiempo y forma, realizar las tareas de una manera llamativa y
@@ -114,26 +148,35 @@
         con mis colegas.
         Logros Personales: En los cuatro años que llevé a cabo este trabajo, sólo tres alumnos no lograron aprobar la materia.
         Algunos alumnos que ni siquiera sabían leer y escribir en español, aprendieron de manera oral y escrita, mientras
-        desarrollaban la segunda aptitud, a apropiarse de los conocimientos básicos de la materia.</p>
-        <br>
-        <br>
+        desarrollaban la segunda aptitud, a apropiarse de los conocimientos básicos de la materia.
+    </p2>
+</div>    
 </fieldset>
-</body>
+<script> src= "js/acciones.js"</script>
 
+</body>
+<br>
+<br>
 <footer>
+    <div id="contacto">
     <h3>
         Datos de contacto:
     </h3> 
-    <br>
-    E-mail: danielalejandroj@live.com.ar    
-    <br>
-    <br>  
-    Teléfono: 221-3647901
-    <br>
-    <br>     
-    Facebook: facebook.com/daniel.jara.007
-    <br>
-    <br>
+   
+            <br>
+            <br>
+            <img src="email.jpg" width="20px" height="20px"/><a href="https://www.outlook.com/login" target="_blank">danielalejandroj@live.com.ar</a>   
+             <br>
+             <br> 
+        <img src="whatsapp copy.jpg" width="20px" height="20px"/><a href="https://www.web.whatsapp.com" target="_blank">221-3647901</a>   
+             <br>
+             <br>     
+       <img src="linkedIn.jpg" width="20px" height="20px"/><a href="https://www.linkedin.com/in/daniel-jara-211998156/" target="_blank">Daniel Jara</a>
+            <br>
+            <br>
+            <img src="twitter.jpg" width="20px" height="20px"/><a href="https://www.twitter.com/@DAJ7Jara" target="_blank">Daniel Jara</a>
+            <br>
+        </div>    
 </footer>
 
 </html>
