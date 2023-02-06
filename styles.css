@@ -4,20 +4,34 @@ header div.contenedor{
     font-size: 12px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color:cadetblue;
+    position: fixed;
+    z-index: 100;
+    padding-bottom:20px;
 }
+header div.aviso_selector{
+    color:rgb(71, 89, 252);
+}
+header div.aviso_selector:hover{
+    color:rgb(255, 0, 0);
+}
+
+header div.contenedor nav{
+    display:none;
+    background-color:rgba(255, 255, 255, 0);   
+}
+
+header div.contenedor nav.visualizar{
+    display:block;
+    position: fixed;
+    z-index:1000;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: fit-content;
+   
+}
+
 #menu-abrir:hover{
     color:red;
 }
-header div.contenedor nav{
-    display:none;
-    background-color:rgba(6, 3, 39, 0.168);
-   
-}
-header div.contenedor nav.visualizar{
-    display:block;
-
-}
-
 #menu-check{
     display:none;
 }
@@ -35,17 +49,14 @@ header div.contenedor nav.visualizar{
 .cont-menu.salir .cont-menu-cerrar{
     display:block;   
 }
-
 .cont-menu a{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.cont-menu a:hover{
-    color:burlywood;
-}
+
 
 /*Estilo foto y Encabezado*/
 .foto {
-    width: 150px;
+    width: 175px;
     height: 250px;
     position: absolute;
 }
@@ -69,27 +80,32 @@ h1 {
 legend{
         color: white;
         font-weight: bold;
+        font-size: 25px;
         text-decoration:underline;
      }
-.sobremi{
-    padding-left: 100px;
+
+p1{
+   
     font-style: italic;
     color: silver;
-      
-     }
+    font-size: 30px;
+}
 
      /*cuerpo del proyecto*/
 
 body {
-    background-color: rgba(1, 21, 36, 0.776);
-    color: rgb(255, 255, 255);
+       
+        background-color: rgba(1, 21, 36, 0.776);
+        color: rgb(255, 255, 255);
     }
+   
 
 fieldset{
-    border-color: rgb(233, 78, 12);
+   
+    border-color: rgb(193, 12, 233);
 }
 
-p1{ 
+p2{ 
     place-items: align-self center;
     font-size: 15px;
     font-family: 'Unbounded', cursive;
@@ -98,7 +114,13 @@ p1{
     
 }
 
-p2{
+div.subtitulo{
+    font-size: 20px;
+    text-decoration:underline;
+    text-decoration-color: rgb(195, 132, 209) ;
+}
+
+p3{
     place-items: align-self center;
     font-size: 15px;
     font-family: 'Unbounded', cursive;
@@ -124,7 +146,9 @@ h2:hover{
 
 h3{
     text-decoration: underline;
-    text-decoration-color: rgb(233, 78, 12);    
+    text-decoration-color: rgb(198, 84, 223); 
+    color:rgb(205, 229, 241);   
+    font-family:Arial, Helvetica, sans-serif;
 }
 h3:hover{
     color: burlywood;
@@ -137,11 +161,12 @@ footer{
 }
 a:-webkit-any-link {
     font-size: 18px;
-    width: fit-content;
-    color: mediumslateblue;
+    color: rgb(207, 200, 235);
     padding-left: 5px;
 }
 
+
 a:-webkit-any-link:hover{
-    color: burlywood;
+    color: rgb(117, 212, 206);
+    font-family:monospace;
 }

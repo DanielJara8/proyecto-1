@@ -1,7 +1,7 @@
 /*prueba de enlace de documentos*/
 console.log("Prueba de carga");
 
-/*Agregado de eventos de botón*/
+/*Agregado de eventos de botón menú */
 
         window.addEventListener("DOMContentLoaded", (event) => {
             console.log("DOM cargado");
